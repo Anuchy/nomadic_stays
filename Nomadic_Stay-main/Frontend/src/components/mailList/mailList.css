@@ -1,0 +1,61 @@
+  .mail{
+    width : 93.4%;
+    margin-top: 3.1rem;
+    background-color: #06334b;
+    background-image: url('/public/back2.jpg');
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 150px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .mailInputContainer>input{
+    width: 400px;
+    height: 30px;
+    padding: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-left: 14px;
+  }
+  
+  .mailInputContainer>button{
+    height: 60px;
+    width:80px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mailDesc{
+    margin-right: 3px;
+    padding-right: 50px;
+  }
+  .mailTitle{
+    margin-right: 3px;
+    padding-right: 50px;
+  }
+
+  @media only screen and (max-width: 975px) {
+    .mail{
+      width: 54%;
+    }
+  }
+  .sub-btn:hover{
+    background-color: #06334b;
+    color:azure;
+}
+.sub-btn {
+
+  color:#003580;
+  cursor: pointer;
+  transition: all .3s ease;
+  border :2px solid #06334b;
+    border-radius: 25px;
+}

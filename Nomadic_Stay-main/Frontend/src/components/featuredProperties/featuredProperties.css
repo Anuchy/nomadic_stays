@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
+
+.fp {
+    width: 100%;
+    /* max-width: 1024px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .fpItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fpImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .fpName{
+    color: #333;
+    font-weight: bold;
+    font-family: 'Frank Ruhl Libre', serif;
+
+  }
+  
+  .fpCity{
+    font-weight: 300;
+    font-family: 'Frank Ruhl Libre', serif;
+
+  }
+  
+  .fpPrice{
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif;
+
+  }
+  
+  .fpRating>button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+  }
+  
+  .fpRating>span{
+    font-size: 14px;
+    font-family: 'Frank Ruhl Libre', serif;
+
+  }
